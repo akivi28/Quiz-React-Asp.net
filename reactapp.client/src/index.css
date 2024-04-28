@@ -1,0 +1,114 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Martian+Mono:wght@100..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+  background-image: url("https://img.freepik.com/premium-vector/one-piece-of-puzzle-icon-on-light-background-jigsaw-symbol-teamwork-child-game-mechanism-outline-flat-and-colored-style-flat-design-vector-illustration_812892-440.jpg");
+}
+*{
+  font-size: large;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.firstForm {
+  background-color: aliceblue;
+  position: absolute;
+  top: 10vw;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+.formsSize{
+    max-width: 600px;
+    min-width: 300px;
+    min-height: 300px;
+}
+.firstForm a {
+  width: 50%;
+}
+.firstForm button {
+  width: 100%;
+}
+.nav-link:hover{
+  background-color: rgb(233, 231, 231);
+}
+.nav-link{
+  font-size: xx-large;
+}
+.navigationStyle{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.countOfQuestions{
+  position: absolute;
+  top: 5%;
+  left: 80%;
+}
+.mainSize{
+  min-width: 530px;
+  max-width: 70vh;
+}
+.mainStyle{
+  margin-top: 10vh;
+  background-color: white;
+  padding: 5vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.historyItem{
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  border: 1px solid rgb(0, 123, 255);
+  border-radius: 20px;
+}
+.historyScore{
+  position: absolute;
+  left: 5%;
+  color: rgb(0, 123, 255);
+}
+.catDif{
+  position: absolute;
+  left: 20%
+}
+.typeDat{
+  position: absolute;
+  left: 50%
+}
+.error-message {
+  color: red;
+  font-size: small;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+.quizStyle{
+  height: 50vh;
+}

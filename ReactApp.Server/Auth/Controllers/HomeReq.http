@@ -1,0 +1,25 @@
+
+POST  http://localhost:5213/api/auth/register
+Accept: application/json
+Content-Type: application/json
+
+{
+  "userName": "test",
+  "dateOfBirth": "2024-04-12T10:36:42.839Z",
+  "email": "test@gmail.com",
+  "password": "111",
+  "confirmPassword": "111"
+}
+
+#####
+
+POST  http://localhost:5213/api/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "login": "test@gmail.com",
+  "password": "111"
+}
+
+
